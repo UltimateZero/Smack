@@ -104,7 +104,7 @@ public class Nick implements ExtensionElement {
                         throws XmlPullParserException, IOException {
     final String name = parser.nextText();
 
-            return new Nick(name);
+                return new Nick(name);
         }
     }
 }
